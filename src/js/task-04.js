@@ -12,12 +12,12 @@ addListenerBtn.addEventListener("click", () => {
    spanValue.textContent = counterValue;
 
     console.log("click event listener was added to btn") 
-    // counterValue.addEventListener("click", handleTargetButtonClick);
+    
 });
 
 removeListenerBtn.addEventListener("click", () => {
   counterValue -= 1;
    spanValue.textContent = counterValue;
     console.log("click event listener was removed from btn");
-    // counterValue.removeEventListener("click",  handleTargetButtonClick);
+   
       });
